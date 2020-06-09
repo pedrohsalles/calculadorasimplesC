@@ -49,7 +49,7 @@ int main()
         scanf("%f", &a);
         printf("\nDIGITE UM NUMERO: ");
         scanf("%f", &b);
-        printf("\n A soma e: %.2f \n", soma(a, b));
+        printf("\n A soma e: %.2f \n", soma(a, b)); //calcula a soma
         break;
 
     case 2:
@@ -57,25 +57,25 @@ int main()
         scanf("%f", &a);
         printf("\nDIGITE UM NUMERO: ");
         scanf("%f", &b);
-        printf("\n A subtracao e: %.2f \n", subtracao(a, b));
+        printf("\n A subtracao e: %.2f \n", subtracao(a, b)); // calcula a subtração
         break;
     case 3:
         printf("\nDIGITE UM NUMERO: ");
         scanf("%f", &a);
         printf("\nDIGITE UM NUMERO: ");
         scanf("%f", &b);
-        printf("\n A multiplicacao e: %.2f \n", multiplicacao(a, b));
+        printf("\n A multiplicacao e: %.2f \n", multiplicacao(a, b)); // calcula a multiplicação
         break;
     case 4:
         printf("\nDIGITE UM NUMERO: ");
         scanf("%f", &a);
         printf("\nDIGITE UM NUMERO: ");
         scanf("%f", &b);
-        printf("\n A divisao e: %.2f \n", divisao(a, b));
+        printf("\n A divisao e: %.2f \n", divisao(a, b)); // calcula a divisão
         break;
 
     default:
-        printf("\nOpcao invalida: \n");
+        printf("\nOpcao invalida: \n"); // se for digitado uma opção diferente de 1 a 4
         break;
     }
     // Segura na tela ate apertar a tecla enter
