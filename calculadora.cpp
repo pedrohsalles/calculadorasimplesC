@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
+// função para calcular a soma
 float soma(float a, float b)
 {
     float soma;
@@ -8,6 +9,7 @@ float soma(float a, float b)
     return (soma);
 }
 
+// função  para calcular a subtraçao
 float subtracao(float a, float b)
 {
     float sub;
@@ -15,6 +17,7 @@ float subtracao(float a, float b)
     return (sub);
 }
 
+// função para calcular a multiplicação
 float multiplicacao(float a, float b)
 {
     float mult;
@@ -22,18 +25,20 @@ float multiplicacao(float a, float b)
     return (mult);
 }
 
+// função para calcular a divisão
 float divisao(float a, float b)
 {
     float div;
     div = a / b;
     return (div);
 }
-
+// programa principal
 int main()
 {
     float a, b;
     int menu;
-
+    
+    // Menu
     printf("\n\t 1 SOMA \n\t 2 SUBTRACAO \n\t 3 MULTIPLICACAO \n\t 4 DIVISAO: ");
     scanf("%d", &menu);
 
@@ -73,6 +78,7 @@ int main()
         printf("\nOpcao invalida: \n");
         break;
     }
+    // Segura na tela ate apertar a tecla enter
   getch();
     return (0);
 }
